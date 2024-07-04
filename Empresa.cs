@@ -16,7 +16,7 @@ public class Empresa(){
     public void ExibirFuncionario(){
         for (int i = 0; i < listaFuncionarios.Count; i++)
         {
-            Console.WriteLine($"{listaFuncionarios}");
+            listaFuncionarios[i].ExibirInformações();
         }
     }
 
