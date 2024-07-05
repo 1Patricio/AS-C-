@@ -25,7 +25,6 @@ public class Empresa(){
             {
                 // Console.WriteLine($"Projeto: {listaFuncionarios[i].Projetos}");
                 Console.WriteLine($"Projetos: {string.Join(", ", listaFuncionarios[i].Projetos)}");
-
             }
             else
             {

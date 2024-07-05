@@ -13,7 +13,7 @@ while (true)
     // Lê a opção escolhida pelo usuário
     int opcao = Convert.ToInt32(Console.ReadLine()); 
 
-    // Executa a operação correspondente à opção escolhida
+    // Executa a operação correspondente à opção escolhida  
     switch (opcao)
     {
         case 1: 
