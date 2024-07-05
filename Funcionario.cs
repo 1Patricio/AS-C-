@@ -1,7 +1,7 @@
 public abstract class Funcionario{ //classe abstrata
     public string nome;
     public int matricula;
-    List<string> Projetos = new List<string>(); //criando o a propriedade lista
+    public List<string> Projetos = new List<string>(); //criando o a propriedade lista
 
     public Funcionario(string nome, int matricula) //construtor
     {
