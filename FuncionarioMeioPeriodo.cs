@@ -9,7 +9,7 @@ public class FuncionarioMeioPeriodo : Funcionario{
     public override double CalcularSalario(){
         return salarioPorHora * horasTrabalhadas;
     }
-        public override void ExibirInformações(){
+        public override void ExibirInformacoes(){
         double salarioMensal = CalcularSalario();
         Console.WriteLine($"Nome: {nome}, Matrícula: {matricula}, Salário Mensal: R${salarioMensal} e sou um Funcionário Meio Periodo");
     }

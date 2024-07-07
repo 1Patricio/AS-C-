@@ -8,7 +8,7 @@ public class FuncionarioTempoIntegral : Funcionario, IBonus{ //herdando a classe
     public override double CalcularSalario(){
         return salarioMensal; //como não se tem cálculo retornamos apenas o salario mensal 
     }
-    public override void ExibirInformações(){
+    public override void ExibirInformacoes(){
         Console.WriteLine($"Nome: {nome}, Matrícula: {matricula}, Salário Mensal: R${salarioMensal} e sou um Funcionário Tempo Integral");
     }
     public double CalcularBonus(){

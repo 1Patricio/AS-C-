@@ -20,7 +20,7 @@ public class Empresa(){
     public void ExibirFuncionario(){
         for (int i = 0; i < listaFuncionarios.Count; i++)
         {
-            listaFuncionarios[i].ExibirInformações();
+            listaFuncionarios[i].ExibirInformacoes();
             if (listaFuncionarios[i].Projetos.Count > 0)
             {
                 // Console.WriteLine($"Projeto: {listaFuncionarios[i].Projetos}");

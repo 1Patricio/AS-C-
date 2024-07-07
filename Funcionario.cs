@@ -9,7 +9,7 @@ public abstract class Funcionario{ //classe abstrata
         this.matricula = matricula;
     }
     public abstract double CalcularSalario(); //método abstrato
-    public abstract void ExibirInformações();
+    public abstract void ExibirInformacoes();
 
     //adicionando um projeto
     public void AdicionarProjeto(string projeto){ //usando -projeto- e não -Projetos- pois estamos passando apenas 1 
